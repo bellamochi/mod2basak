@@ -1,0 +1,281 @@
+    @media (min-width: 992px) {
+
+    * {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        margin:0;
+        padding:0;
+        width:100%;
+        height:100%;
+    }
+
+    header {
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .wrapper { 
+        width: 100%;
+        overflow: hidden;
+    }
+
+    p { 
+        padding-top: 2em;
+        padding-right: .5em;
+    }
+
+    #col-1 {
+        border-style: solid;
+        background-color: grey;
+        height: fit-content;
+        width: 30.8%;
+        float: left;
+        padding-left: 10px;
+        margin-left: 1.5em;
+    }
+
+    #col-2 {
+        border-style: solid;
+        background-color: grey;
+        height: fit-content;
+        width: 30.8%;
+        float: right;
+        position: absolute;
+        padding-left: 10px;
+        margin-left: 34.6%;
+    }
+
+    #col-3 {
+        border-style: solid;
+        background-color: grey;
+        height: fit-content;
+        width: 30.8%;
+        float: right;
+        padding-left: 10px;
+        position: right;
+        margin-right: 1.5em;
+    }
+
+    h2 { 
+        color: black;
+        letter-spacing: 1.5px;
+        border-style:solid;
+        width: 170px;
+        height: 37px;
+        text-align: center;
+        font-size: 145%;
+        position: relative;
+        padding-top: .12em;
+        margin: 0em;
+        float: right;
+        border-top: hidden;
+        border-right: hidden;
+    }
+
+    #col-1 h2 { 
+        background-color: rgb(213, 152, 152);
+    }
+
+    #col-2 h2 { 
+        color: white;
+        background-color: rgb(193, 69, 67);
+        border-color: black;
+    }
+
+    #col-3 h2 { 
+        background-color: rgb(229, 209, 152);
+    }
+
+    }
+
+    @media (min-width: 768px) and (max-width: 991px ) {
+
+
+    * {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        margin:0;
+        padding:0;
+        width:100%;
+        height:100%;
+    }
+
+    header {
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .wrapper { 
+        width: 100%;
+        overflow: hidden;
+    }
+
+    p { 
+        padding-top: 2em;
+        padding-right: .5em;
+    }
+
+    #col-1 {
+        border-style: solid;
+        background-color: grey;
+        height: fit-content;
+        width: 46.2%;
+        float: left;
+        padding-left: 10px;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    #col-2 {
+        border-style: solid;
+        background-color: grey;
+        height: fit-content;
+        width: 46.2%;
+        float: right;
+        position: absolute;
+        padding-left: 10px;
+        margin-left: 51.2%;
+    }
+
+    #col-3 {
+        border-style: solid;
+        background-color: grey;
+        height: fit-content;
+        width: 94.5%;
+        float: left;
+        padding-left: 10px;
+        margin: 1.5em;
+    }
+
+    h2 { 
+        color: black;
+        letter-spacing: 1.5px;
+        border-style:solid;
+        width: 170px;
+        height: 37px;
+        text-align: center;
+        font-size: 145%;
+        position: relative;
+        padding-top: .12em;
+        margin: 0em;
+        float: right;
+        border-top: hidden;
+        border-right: hidden;
+    }
+
+    #col-1 h2 { 
+        background-color: rgb(213, 152, 152);
+    }
+
+    #col-2 h2 { 
+        color: white;
+        background-color: rgb(193, 69, 67);
+        border-color: black;
+    }
+
+    #col-3 h2 { 
+        background-color: rgb(229, 209, 152);
+    }
+
+    }
+
+    @media (max-width: 767px ) {
+
+
+        * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            box-sizing: border-box;
+        }
+    
+        html, body {
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+        }
+    
+        header {
+            text-align: center;
+            font-size: 120%;
+        }
+    
+        .wrapper { 
+            width: 100%;
+            overflow: hidden;
+            padding-right: 3em;
+        }
+    
+        p { 
+            padding-top: 2em;
+            padding-right: .5em;
+        }
+    
+        #col-1 {
+            border-style: solid;
+            background-color: grey;
+            height: fit-content;
+            width: 93%;
+            float: right;
+            position: relative;
+            padding-left: 10px;
+        }
+    
+        #col-2 {
+            border-style: solid;
+            background-color: grey;
+            height: fit-content;
+            width: 93%;
+            float: right;
+            position: relative;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+
+        #col-3 {
+            border-style: solid;
+            background-color: grey;
+            height: fit-content;
+            width: 93%;
+            float: right;
+            position: relative;
+            padding-left: 10px;
+            margin-top: 6%;
+        }
+    
+        h2 { 
+            color: black;
+            letter-spacing: 1.5px;
+            border-style:solid;
+            width: 170px;
+            height: 37px;
+            text-align: center;
+            font-size: 145%;
+            position: relative;
+            padding-top: .12em;
+            margin: 0em;
+            float: right;
+            border-top: hidden;
+            border-right: hidden;
+        }
+    
+        #col-1 h2 { 
+            background-color: rgb(213, 152, 152);
+        }
+    
+        #col-2 h2 { 
+            color: white;
+            background-color: rgb(193, 69, 67);
+            border-color: black;
+        }
+    
+        #col-3 h2 { 
+            background-color: rgb(229, 209, 152);
+        }
+    
+        }
